@@ -8,6 +8,6 @@ mi_carta = carta.Carta("azul", "uno")
 mi_carta.atributos()
 
 # Prueba actualizar el atributo color después de leer una imagen
-imagen_leida = io.imread(r"C:\Users\ikerf\Desktop\Upiita\7mo semestre\Patrones\fotos_uno\fotos_uno\verde_1.jpg")
+imagen_leida = io.imread(r"F:\ARCHIVOS HDD\Materias\7mo Semestre\Reconocimiento de Patrones\proyectoUNO\fotos_uno\amarillo_0.jpg")
 mi_carta.identificar_color(imagen_leida)
 mi_carta.atributos() 
